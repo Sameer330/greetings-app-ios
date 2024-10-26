@@ -24,11 +24,12 @@ struct ContentView: View {
                 Spacer()
                 
                 Spacer()
-            }
+            }.padding()
         }
     }
 }
 
 #Preview {
     ContentView()
+        .preferredColorScheme(.dark)
 }
