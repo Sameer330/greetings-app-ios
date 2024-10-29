@@ -10,9 +10,9 @@ import SwiftUI
 struct MessagesView: View {
     let messages: [DataItemModel] = [
         .init(text: "Hello, there!", color: .newRed),
-        .init(text: "I just", color: .myGrey),
+        .init(text: "I just", color: .myBlue1),
         .init(text: "Started learning", color: .myGreen),
-        .init(text: "SwiftUI Framework", color: .newYellow),
+        .init(text: "SwiftUI Framework", color: .myBlue2),
         .init(text: "Welcome to iOS Development", color: .newPurple),
     ];
     

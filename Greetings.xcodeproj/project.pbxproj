@@ -6,17 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		42BFE1872CCC0B99009BE51D /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BFE1862CCC0B99009BE51D /* TitleView.swift */; };
-		42BFE1892CCC0BE0009BE51D /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BFE1882CCC0BE0009BE51D /* MessagesView.swift */; };
-		42BFE18B2CCC1712009BE51D /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BFE18A2CCC1712009BE51D /* BackgroundView.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		426E98DA2CCBCEB900871409 /* Greetings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greetings.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		42BFE1862CCC0B99009BE51D /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
-		42BFE1882CCC0BE0009BE51D /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
-		42BFE18A2CCC1712009BE51D /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -41,9 +32,6 @@
 		426E98D12CCBCEB900871409 = {
 			isa = PBXGroup;
 			children = (
-				42BFE18A2CCC1712009BE51D /* BackgroundView.swift */,
-				42BFE1882CCC0BE0009BE51D /* MessagesView.swift */,
-				42BFE1862CCC0B99009BE51D /* TitleView.swift */,
 				426E98DC2CCBCEB900871409 /* Greetings */,
 				426E98DB2CCBCEB900871409 /* Products */,
 			);
@@ -103,6 +91,9 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
+				he,
+				hi,
 			);
 			mainGroup = 426E98D12CCBCEB900871409;
 			minimizedProjectReferenceProxies = 1;
@@ -131,9 +122,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42BFE1892CCC0BE0009BE51D /* MessagesView.swift in Sources */,
-				42BFE18B2CCC1712009BE51D /* BackgroundView.swift in Sources */,
-				42BFE1872CCC0B99009BE51D /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +185,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -251,6 +240,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
 			name = Release;
 		};

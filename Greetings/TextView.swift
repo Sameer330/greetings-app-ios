@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct TextView: View {
-    let text: String
+    let text: LocalizedStringKey
     @State var color: Color
     
     var colors = [
@@ -24,8 +24,8 @@ struct TextView: View {
     ]
     
     var body: some View {
-        Text("\(text)")
-            .font(.largeTitle)
+        Text(text)
+            .font(.title3)
             .fontWeight(.semibold)
             .padding()
             .foregroundStyle(Color.white)
@@ -40,8 +40,8 @@ struct TextView: View {
 
 #Preview {
     VStack {
-        TextView(text: "Hello There!", color: Color.purple)
-        TextView(text: "Hello There!", color: Color.red)
-        TextView(text: "Hello There!", color: Color.black)
+        TextView(text: "Hello, there!", color: Color.purple)
+        TextView(text: "Hello, there!", color: Color.red)
+        TextView(text: "Hello, there!", color: Color.black)
     }
 }
