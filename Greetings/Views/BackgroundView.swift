@@ -10,7 +10,8 @@ import SwiftUI
 struct BackgroundView: View {
     var body: some View {
         LinearGradient(colors: [
-            .myBlue1, .myBlue2
+            .cyan,
+            .myBlue1, .myBlue2, .white
         ], startPoint: .topLeading, endPoint:
         .bottomTrailing)
         .opacity(1)
