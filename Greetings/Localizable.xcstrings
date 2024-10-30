@@ -24,6 +24,29 @@
         }
       }
     },
+    "English" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "אַנגְלִית"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "अंग्रेज़ी"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Английский"
+          }
+        }
+      }
+    },
     "Exploring iOS Programming" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -92,6 +115,29 @@
         }
       }
     },
+    "Hebrew" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "עִברִית"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "यहूदी"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "иврит"
+          }
+        }
+      }
+    },
     "Hello there!" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -133,6 +179,29 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Привет!"
+          }
+        }
+      }
+    },
+    "Hindi" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "הינדי"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "हिन्दी"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "хинди"
           }
         }
       }
@@ -223,6 +292,29 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Поиск знаний"
+          }
+        }
+      }
+    },
+    "Russian" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "רוּסִי"
+          }
+        },
+        "hi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "रूसी"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Русский"
           }
         }
       }
