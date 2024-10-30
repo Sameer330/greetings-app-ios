@@ -23,9 +23,24 @@ struct TextView: View {
         Color(red: 250/255, green: 50/255, blue: 220/255),
     ]
     
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    @Environment(\.verticalSizeClass) var verticalSizeClass
+    
+    var isPortraitPhone: Bool {
+        horizontalSizeClass == .compact && verticalSizeClass == .regular
+    }
+    
+    var isIpad: Bool {
+        horizontalSizeClass == .regular && verticalSizeClass == .regular
+    }
+    
+    var font: Font {
+        isIpad ? .largeTitle : .body
+    }
+    
     var body: some View {
         Text(text)
-            .font(.title3)
+            .font(font)
             .fontWeight(.semibold)
             .padding()
             .foregroundStyle(Color.white)
